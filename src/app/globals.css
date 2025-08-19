@@ -1,0 +1,23 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+NSW:wght@100..400&display=swap'); */
+@import "tailwindcss";
+
+/* input:-webkit-autofill{
+    background-color: transparent !important;
+} */
+
+.password-input:-webkit-autofill:focus  , .password-input:-webkit-autofill{
+  box-shadow: 0 0 0 1000px transparent inset !important;
+  -webkit-box-shadow: 0 0 0 1000px transparent inset !important;
+    -webkit-text-fill-color: blue !important;
+  background-color: transparent !important;
+}
+
+/* used to set the tailwind variables */
+/* @theme inline {
+  --playwrite-font : var(--font-playwrite)
+} */
+
+/* used to set the css variables */
+/* :root {
+
+} */
